@@ -216,12 +216,11 @@
     <article class="entry">
       <div class="entry-num">02.5</div>
       <div class="entry-body">
-        <h4>Pipe survey software (Windows, C++)</h4>
+        <h4>Pipe survey software</h4>
         <p>Software for data analysist</p>
         <ul class="tags"><li>Windows</li><li>C++ / MatLab</li></ul>
         <figure class="entry-figure">
           <img src="assets/psi.png" alt="Architecture diagram of the 6DoF player: reconstruction backend, streaming and decode layer, and WebGL rendering layer" loading="lazy" width="1280" height="800">
-          <figcaption>6DoF player architecture — backend reconstruction, streaming/decode, and rendering layers.</figcaption>
         </figure>
       </div>
     </article>
@@ -360,19 +359,12 @@
       <div class="entry-num">05.1</div>
       <div class="entry-body">
         <h4>6DoF 3D player — system architecture</h4>
-        <p>The 6DoF player (see 01.3) splits into three layers: a capture/reconstruction backend that produces
-          streamable 3D scene data, a client-side streaming and decode layer that manages bandwidth and buffering,
-          and a WebGL rendering layer that reprojects the scene per-frame as the viewer moves through six degrees
-          of freedom. Keeping decode and rendering on separate threads was the main lever for holding frame time
-          under budget on mid-range hardware.</p>
         <figure class="entry-figure">
           <img src="assets/sixdof-architecture.png" alt="Architecture diagram of the 6DoF player: reconstruction backend, streaming and decode layer, and WebGL rendering layer" loading="lazy" width="1280" height="800">
-          <figcaption>6DoF player architecture — backend reconstruction, streaming/decode, and rendering layers.</figcaption>
         </figure>
         <ul class="tags">
-          <li>System design</li>
+          <li>Architecture design</li>
           <li>Streaming</li>
-          <li>Client/server split</li>
         </ul>
       </div>
     </article>
