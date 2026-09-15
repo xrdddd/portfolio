@@ -172,14 +172,25 @@ button:focus-visible {
   padding: 0;
   display: flex;
   flex-direction: column;
-  gap: 6px;
+  gap: 10px;
 }
 .contact a {
+  display: flex;
+  align-items: center;
+  gap: 10px;
   color: var(--ink-soft);
   font-size: 0.9rem;
   text-decoration: none;
 }
 .contact a:hover { color: var(--accent); }
+
+.contact-icon {
+  flex: none;
+  width: 16px;
+  height: 16px;
+  color: var(--ink-faint);
+}
+.contact a:hover .contact-icon { color: var(--accent); }
 
 .nav-toggle {
   display: none;
