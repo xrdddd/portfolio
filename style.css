@@ -166,31 +166,34 @@ button:focus-visible {
 .contact {
   margin-top: auto;
 }
-.contact ul {
+.contact-icons {
   list-style: none;
   margin: 0;
   padding: 0;
   display: flex;
-  flex-direction: column;
-  gap: 10px;
+  gap: 8px;
 }
-.contact a {
+.contact-icons a {
   display: flex;
   align-items: center;
-  gap: 10px;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border: 1px solid var(--line-strong);
+  border-radius: 4px;
   color: var(--ink-soft);
-  font-size: 0.9rem;
   text-decoration: none;
 }
-.contact a:hover { color: var(--accent); }
+.contact-icons a:hover {
+  color: var(--accent);
+  border-color: var(--accent);
+}
 
 .contact-icon {
   flex: none;
-  width: 16px;
-  height: 16px;
-  color: var(--ink-faint);
+  width: 18px;
+  height: 18px;
 }
-.contact a:hover .contact-icon { color: var(--accent); }
 
 .nav-toggle {
   display: none;
