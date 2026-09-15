@@ -338,6 +338,28 @@ main {
   font-size: 0.92rem;
 }
 
+.entry-figure {
+  margin: 4px 0 16px;
+  padding: 0;
+  max-width: 62ch;
+}
+
+.entry-figure img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 1px solid var(--line-strong);
+  border-radius: 2px;
+  background: var(--paper);
+}
+
+.entry-figure figcaption {
+  margin-top: 8px;
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  color: var(--ink-faint);
+}
+
 .site-footer {
   padding-top: 48px;
   border-top: 1px solid var(--line);
