@@ -401,7 +401,7 @@
       <div class="entry-num">05.1</div>
       <div class="entry-body">
         <h4>DATsurveyEdit — desktop software architecture</h4>
-        <p>As Tech Lead and C++ Architect, redesigned company's current DATsurveyEdit software architecture, made it more modular, minimizes bugs and scales easily for future features.</p>
+        <p>As Tech lead and C++ Architect, redesigned company's current DATsurveyEdit software architecture, made it more modular, minimizes bugs and scales easily for new features.</p>
         <ul class="tags">
           <li>Architecture design</li>
           <li>desktop</li>
@@ -416,6 +416,7 @@
         <figure class="entry-figure">
           <img src="assets/sixdof-architecture.png" alt="Architecture diagram of the 6DoF player: reconstruction backend, streaming and decode layer, and WebGL rendering layer" loading="lazy" width="1280" height="800">
         </figure>
+        <p>There is a C++ core, shared by many different platforms like iOS, Android, Web browsers, then a wrapper which is implemented by specific platform using the platfrom language like Objective-C, Java, WebAssembly, etc. The modulars in the Core are highly independent. </p>
         <ul class="tags">
           <li>Architecture design</li>
           <li>Streaming</li>
